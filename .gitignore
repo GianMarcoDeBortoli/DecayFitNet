@@ -78,3 +78,5 @@ model/tuningmin15min10A/
 
 
 __pycache__/
+
+*.egg-info/
