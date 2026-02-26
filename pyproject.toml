@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "decayfitnet"
+version = "0.0.0"
+dependencies = ["torch", "scipy", "numpy", "onnx", "onnxruntime", "h5py", "matplotlib"]
+
+[tool.setuptools]
+packages = ["decayfitnet"]
+
+[tool.setuptools.package-dir]
+decayfitnet = "python"

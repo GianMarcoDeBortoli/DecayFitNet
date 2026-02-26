@@ -75,3 +75,6 @@ model/min2Tmin10A/
 model/onlyTrainedWithExactlyN/
 
 model/tuningmin15min10A/
+
+
+__pycache__/
